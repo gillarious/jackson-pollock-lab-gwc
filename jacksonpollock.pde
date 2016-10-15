@@ -3,6 +3,7 @@ var y = random(1,100);
 
 void setup() {
     size(500,500);
+    smooth();
 };
 
 noStroke();
@@ -12,7 +13,6 @@ mouseDragged = function() {
     ellipse(mouseX,mouseY,random(10,75),random(10,75));{
         fill(random(100,255), random(100,255), random(100,255));
     }
-    delay(3000);
 };
 
 mouseOver = function() {
